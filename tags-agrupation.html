@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de agrupacion</title>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Tags de agrupacion</h1>
+
+            <!-- blockquote bloque de cita -->
+            <blockquote cite="https://es.wikipedia.org/wiki/HTML">
+                HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcas de hipertexto’), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de 
+                una página web, como texto, imágenes, videos, juegos, entre otros.Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. HTML se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web 
+                y es el que todos los navegadores actuales han adoptado.
+            </blockquote>
+            <!-- div grupo generico -->
+            <div style="background-color: gray;">
+             <p>estoy dentro del div</p>
+             <p>otro parrafo</p>
+        </div>
+        <!-- Lista de definiciones-->
+        <dl>
+            <dt>Tabla</dt>
+            <dd>Pieza de madera generalmente mide 0.30 mts. de anchopor 2.5 mts.</dd>
+            <dd>Es una estructura basada en registros y campos.</dd>
+            <dt>Llave principal</dt>
+            <dd>Es un campo que identifica un registro en una tabla</dd>
+        </dl>
+
+        <dl>
+            <dt>¿Como subo un video?</dt>
+            <dd>Para subir un video debes ....</dd>
+            <dt>¿Que tipos de formato de video soporta el sitio?</dt>
+            <dd>El sitio soporta mp4, mvw, mov</dd>
+        </dl>
+        <!-- figure -->
+        <figure style="border: 1px solid green">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQIAAADDCAMAAABeUu/HAAAAxlBMVEX///84rEngKifeAAAlpzsgpzfG5cosqUCZ0KDr9ezf8OG63r4yqkT41NMqqD7iQD387e3gHBb42tlFsVX98vLhMzD0+vX65+bMy83++Pj64eHiR0T2+/dNs1uBxoqk1arS6tXfEw2u2bOi1Ki33bzoc3HmY2HfHxuNy5VcuGhYt2VmvHHL58/iOTbwqajsj472zMzqf37ytrXlWliDx4x0wX7LyszobGrkT03u7u/un57riIapp6rY19jzvr0Aoie5uLrh4eIMz+8zAAALiElEQVR4nO2cC1fiOhDHS9NaHrUCKi9BW1ZARUVQRJdVd7//l7pN+spMUvCeS2HPufM7Z4+Qpm3yb2YymYY1DIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCOL/Q8U/GpZvLpchL+Wro+oeb30E8bWVfFgpbF8VlvQr6Dp93WVaqFJcen91ObBt2/Icx+U4jmfZ9m15XzIsbUvG01YqgUpfYdtvYEml+gUu81XTXeYaVLJvwyL/ZhDe1HVLCq5nD66L7HnKkQVubOukr9igjhMWlR1wVsU4Bb1wXnT3WoI63tDgUmp6n6pguUeFdj6i74G7inZhakAmd2loJLgBBaWS7l6wt+FJ4cCAT0DBXhba+wj4aNzp1ioWH+SKBD4cKbrRVAVV3AEvQ6epeAOtW9kp6Dm4mjuiB9MyNBKgSrrRdAUGnFfmZa1tEpScQcECKI2w7pUa8ElF40SV4MVRa0FuwWCKx8npNglKXvG2AFvm3CgVYHej56tKcA9Hk6WMJvzAdXfXYhfuE4fQIZ4qFQbw6XEvppHAQKNJaTd0qonU2I1qcNUm7ZjKFkcGj7u3olAjAXSaziW+Dzxu+1EpegBabG2UsUvu1OlaBjbSuxKFGglQhKEEWVo7MPz4LBEUchzVMrTT1E6Bntq9Q4enGjvQSdCHQzp5zAm+1g74GHMdy3YH08vy1XA4vLqZlpRwSUxCRYIswYL3g7GTG09RGgmwJZThXaDRZwJ9hauBowpwnv4UjRjVsewaaAkWjMzh+E7MRCcBrOmi+RzOfk5aXtM94SEKycuaOjsFWrsL5+FLTWf1EiBrT6pGwNBQM/VCfkA5C3cGyBI8MCph/Hwbl2ol0CyDsj4BmbGjUIHLrsKnRRSfAMuDoWHaLa0EyBJu5VsM/mWXroFkTuELBWgJYEqHXsxKBrdWArwUlKy88u/sAJ9Q+JRgtPKndHAgs0m9BHCdIPtVKLI2K4Eo6W5QIHDut/z0APRiWaf0EugWVJobfCviBTPIdzT7j+jjd0Ppaj+nPHlI4NGVvHT4wmEWR5iQytGw/LKcTqfLy5sfR9W9S4Dms+wpAS8mTZc5EsBiK43tYVJCGdbVq6mL0qfIrexBAjT7J3eEdmBnuYQcCVBiKJUM2gGa5a8HtrdlybwPCaAVp9EYnM2lhGCOBDjQjEv7OR6Fc12yvpEy2EdCHWVvdKXyVJYnAfT8SYQBXY0cerXwcuCAEpR1sxayA6kdeRJAv+fGEQawAznsqLjbMyZ7k6CiswSgC1j35EmAl4uiDOoiBccV3TuUg0kAg+R45gaBuiXH/LkS3EOzF5aAktTZVQbfVGBPEkB7FfdEcZEcp+dKAEODaNADO/B+ZBfZ8h5l3xIYasID9BMmA/MlgJMId33QxqzMbyie0OXvUy3xD6Wg9iMByuUaOEz3vycB6nANzRJSeIVm3JJnX177lVZIxa+VDyEBcv8+jBVQEihfAjUMAhYvhVfIE1hlsCLee4DMuUVTF1j3ocTyBgnu0TIXJWTSejh5jzLlB5EArZX6MNCDSYsNEhgodwQS1NIKCb5+Ut47HEQClCMDMzzeMLBJApiUvxsAJbPcx3BzKu0wEsAIUfcSNKu6QYJW/lznSKlZ6A0tnBc6jASV3LbDPKCxWQK07AQVfekSf6MEKLqVG4jf6m2UIHffBJhWUE4Z5xAOJEF+23HNjRLkBr5gmYzeVeJXmQeSIK/tUlAbs1mCWo5FASXRa1i8O+lQEuS03VNy2JslMLRXiffWJFTRS7NbeJNDSaBvu7pXYJsEOPaNQC4POU3XevGzCpWDSaBtu6YBWyRo6S6DlVScr2NZ7und3eCUr5e2taAw+hqHqHupuUUC7f4Z3A+91bm6NMo+JdC1XfcOdJsEFVVKVUmdAnr2KoHadmXbCWebBMZSkVJVsvat1OneJVBDO+0Wj60SVHH3dEpOv5c83bcEuO36F4BbJUCvKUGiIKV/+lelT1OQo1ZiY8F2CVCkqVeydfqNPXf7lwC9FNO/Bd4uAd5vm7Nj6mXTbvxDSQCHsKX/WcQ3JNiUd5OrDbaI4Dqe9bVnCcAvTLQ/LAglQL9K0dW5lep8bdg25y89S7PhkocInmU7g8srv/gN+YhaxnWO/P51Ta6lbWJVqrP5Jzb9+/LU5alzL4L/bMe23bvlj1p1770/IK3q/dFQcF2796vFb60hCIIg/hrqh27AoWmy80M34dAcs5NDN+HQkAQkAUlgkATG3yaBP7y5ufJBUfej0+m8dv6Awvpitp59nsGTu+1mE8zw3R743j1r17vZofRsIUG33tsYHYQn9LqbKuyG2qntOY5nl6SXu52P6Mbvr5kI7RULGpNGwEaSCL2LgIU8PKYFo0D6fjyLjr/xL0/P/ONJcohdtEeTsMCcRyq0T96SizQfnsWfMT+BXaQXL4hllLhyLMe6i/MT3dfs8J+P+MOCTcyQSdBosKf0cJNdjNbzN8ZWSS1mjtbhd9EHgzWCk/Fq/DAKP68ZO1+NLkIRhITHzAzrjldvoUafvKDNzOyq3Eg+Qynns/Dis4K6HjONcrjWTe3SSv67hESBd24IsQYLZgoF3hY/J2amQbct/jw12EL8ZVF7e+fBnP9tBL2oGlegIXoajpsH/veYTZ6P+YezOWP8QzsLF4UE3UYQPf52u4iOp8SbYMVu00vHE28+UwV+/foV9v/jXbRPKGDy1j8FZoAcgvEYjXWT/Yy+9wLGO99giakfR/3knAQzA7jDWWAaqgRPLDWMIkk2wYos9ZEl/r4n5v8RSvDbiCRZTaJBIJ4xMxtzdKE6m3T5UEm7NRJiZBKMg3Vy6JhxBeUZweRjCEuwYOMd9jSX5GW6x/ObZUe8AO8kB/+EEvAv4TCox4Ngwh8MHxEM+enuhIXdemap54o6kEpwxlgvrXzCeyxLMAtWqgRN1ijWAiLS9x3OdfVK2IQkgfHnt/j8/mEsgkiC8PE3n07Cv5JHNM7q4axncgkaWT97okOpBE/sITthxuZQAnEUS2A8B5PPXXdYJUvae7YYEFbF+FBqdYxZI5bAnDChRiN53J/j0LGzxhuX4CwwLxJOJg1DkmARTxGCR/5FlqDHzUiRoBvOiec/sdfZMX3lDYatl2A9MSGN2O2FrTxZzedjk0vQDszzDP7YUwkeZcNesAsoQZ01zlQJ4khiVKw5KP+njtfaMgoSCaJRsGZmZBHdaBQwFOv9p1EgjsxZIBvd7sGvwPmvNDu4UjhFfAZIgqhZXRYkM13sC47hqd/0BZ+RL5gk35vSsW4YbhZpDEO034f/EE+RoMMdOpIgam0va7WQ4C1AsWwqQZ2xbDwrM8I6GPFQKO1qEyyh3pJgoxjQhgr+jvgdWwKPC+bQEoIoZsUSPAYP8NQsLngO0jA3jJJgXNCNxvoDSyYAKMGMrY0CuYa/oxGbIzvvoIr4egYkmMRW281CPiFBNwjgAwPRYTP+eCKiJEmCceOC/5kFSTgIJZgXOwqMF0kDK94U9ipX+IiCxWPJFCbp9D8KHuKPQgK+SppHo/lYaJNJoFkjxN1svgWBMJIzFsSLUHGsHo+JRZCKVxDlZIuDa6d7I1+zcZCmDJpm4hLTboeP/SGcFEej0fhhEhnygomCMFgQg1eeItZ8EclXihfxSnESPIenhlcw4+s9hd7/YrV6NlnjnM8bwXg+X01Y0StFw6gubcvzLPvWz8o+IhG6H5IY3VnAgiBgEzAsf5piTc+e11HIXF9PxPeVmDIeTGmWjPIF57HHPJu9RWdmuQajPYqK3tbh2U/j+MqFzokx/fvh8B5ttf7Tee28fkCvYDQXjwtlUJ71eu0uKshJBclZI0691+yhCa/ebmcl7V5zH8sEgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgohQfnX9f+P1Hw7g3384oWn6AAAAAElFTkSuQmCC" alt="logo viva">
+            <figcaption>Logo viva</figcaption>
+        </figure>
+        <!-- Regla horizontal -->
+        <hr>
+        <ol type="A">
+            <li>Alemania</li>
+            <li>España</li>
+            <li>Brazil</li>
+            <li>México</li>
+        </ol>
+
+        <!-- Lista desordenada -->
+        </ul>
+             <li>LTI</li>
+             <li>LA</li>
+             <li>CP</li>
+             <li>LNI</li>
+        </ul>
+
+        <ul>
+            <li>LTI
+                <ol>
+                    <li>Luis</li>
+                    <li>Martin</li>
+                </ol>
+            </li>
+            <li>LA
+                <ol>
+                    <li>Angelica</li>
+                    <li>Rocio</li>
+                </ol>
+            </li>
+            <li>CP</li>
+            <li>LNI</Li>
+        </ul>
+        <!-- parrafo -->
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore accusantium veritatis quis facilis quaerat, rerum sapiente suscipit fugiat molestiae ipsa ipsum, sed a debitis sunt aliquam similique dignissimos fuga amet!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquid quibusdam assumenda ipsum earum saepe veniam enim minima, aliquam impedit fugiat incidunt suscipit pariatur numquam dicta explicabo qui molestias dolor.</p>
+        <p style="background-color: hotpink;">soy otro parrafo<p>
+        <pre>Hola                                 hasta luego</pre>
+        <pre>
+        ~)
+        .(_/^\           ~)       ~)        ~)
+         ./|~|\   ~)    .'(_/^\'..'(_/^\'..'(_/^\. ~) 
+         /'/'/'|''(_/^\'   /|~|\    /|~|\    /|~|\''(_/^\
+                   /|~|\  / / / |  / / / |  / / / |  /|~|\
+             / / / |                           / / / |
+        </pre>                         
+        </article>
+    </main>
+</body>
+</html>
